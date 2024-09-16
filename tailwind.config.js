@@ -14,7 +14,7 @@ module.exports = {
       sm: "640px",
       md: "768px",
       lg: "960px",
-      xl: "1430px",
+      xl: "1280px",
     },
     fontFamily: {
       primary: "var(--font-cormorant_upright)",
@@ -23,7 +23,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#180e8e",
+          DEFAULT: "#100e0e",
         },
         secondary: {
           DEFAULT: "#787f8a",
@@ -34,7 +34,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        hero_overlay: "url('/assets/hero/hero-overlay.png)",
+        hero_overlay: "url('/assets/hero/hero-overlay.png')",
         opening_hours:"url('/assets/opening-hours/bg.png')",
         footer:"url('/assets/footer/bg.png')",
       },
