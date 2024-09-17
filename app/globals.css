@@ -23,3 +23,7 @@
   }
   
 }
+/* Swiper navigation arrow */
+.swiper-button-next::after, .swiper-button-prev::after{
+  @apply text-primary !text-[2rem];
+}
