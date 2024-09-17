@@ -27,7 +27,7 @@ const Home = () => {
       <OpeningHours/>
       <Testimonials/>
       {/* Temporary div */}
-      <div className="h-[4000px]"></div>
+
     </div>
   );
 };
