@@ -6,6 +6,7 @@ import Explore from "@/components/Explore";
 import About from "@/components/About";
 import Menu from "@/components/Menu";
 import Testimonials from "@/components/Testimonials";
+import OpeningHours from "@/components/OpeningHours";
 
 const Home = () => {
   //add locomotive scroll
@@ -23,6 +24,7 @@ const Home = () => {
       <Explore />
       <About />
       <Menu/>
+      <OpeningHours/>
       <Testimonials/>
       {/* Temporary div */}
       <div className="h-[4000px]"></div>
